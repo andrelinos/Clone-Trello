@@ -27,4 +27,10 @@ live-server .
 - Edite os arquivos `scss/*.scss` para alterar os estilo da página.
 
 # Notas
-Este projeto está comas informaçẽos de forma estática. Pretendo acrescentar a funcionalidade de adicionar, editar e excluir itens usando banco de dados.
+- As funcionalidades DRAG-AND-DROP estão ativas e funcionais.
+
+- Exemplo no vídeo por [rocketseat](https://www.youtube.com/watch?v=6wn8hpUcEcM) e por [Mayk Brito](https://github.com/maykbrito/)
+
+- Link para o Domecumento [notion](https://www.notion.so/maykbrito/Drag-and-Drop-API-56b653f51c374cf0954809994c244437) criado pelo Mayk Brito
+
+- Este projeto está comas informaçẽos de forma estática. Pretendo acrescentar a funcionalidade de adicionar, editar e excluir itens usando banco de dados.
