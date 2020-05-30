@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trello Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="left-box">
+      <div class="primary-menu pointer hover"><i class="fa fa-th"></i></div>
+      <div class="home-menu pointer hover"><i class="fa fa-home"></i></div>
+
+      <div class="boards-menu pointer hover">
+        <div class="board-menu"><i class="fa fa-box"></i></div>
+        <strong>Quadros</strong>
+      </div>
+
+      <div class="box-search">
+        <input type="search" name="" id="">
+        <i class="fa fa-dog pointer"></i>
+      </div>
+    </div>
+
+    <div class="center-box  pointer">
+      <i class="fa fa-box pointer"></i>
+      <span>Trello Clone</span>
+    </div>
+
+    <div class="right-box">
+      <div class="add-menu pointer hover"><i class="fa fa-plus"></i></div>
+      <div class="info-menu pointer hover"><i class="fa fa-info-circle"></i></div>
+      <div class="bell-menu pointer hover"><i class="fa fa-bell"></i></div>
+      <div class="user-menu pointer hover"><i class="fa fa-user"></i></div>
+    </div>
+
+  </header>
+  <div id="boards">
+    <div class="board">
+      <h3>Todo</h3>
+      <div class="dropzone">
+        <div key="1" class="card" draggable="true">
+          <div class="status green"></div>
+          <div class="content">Produzir videos!</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>In Progress</h3>
+      <div class="dropzone">
+        <div key="1" class="card" draggable="true">
+          <div class="status blue"></div>
+          <div class="content">Forum</div>
+        </div>
+      </div>
+      <div class="dropzone">
+        <div key="1" class="card" draggable="true">
+          <div class="status yellow"></div>
+          <div class="content">Forum</div>
+        </div>
+      </div>
+      <div class="dropzone">
+        <div key="2" class="card" draggable="true">
+          <div class="status pink"></div>
+          <div class="content">Forum</div>
+        </div>
+      </div>
+      <div class="dropzone">
+        <div key="3" class="card" draggable="true">
+          <div class="status blue"></div>
+          <div class="content">Forum</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>Done</h3>
+      <div class="dropzone">
+        <div key="1" class="card" draggable="true">
+          <div class="status red"></div>
+          <div class="content">Next Level Week</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

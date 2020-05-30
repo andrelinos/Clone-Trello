@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "plugins": [
+        "html"
+    ],
+    "settings": {
+        "html/html-extensions": [".html"],
+        "html/indent": "tab",
+        "html/report-bad-indent": "error",
+        "html/javascript-mime-types": "/^text\\/(javascript|jsx)$/"     
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+    }
+}
