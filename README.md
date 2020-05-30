@@ -21,7 +21,7 @@ live-server .
 ```
 - Será aberto em seu navegador padrão o projeto de exemplo.
 
-# Como editar o proejeto
+# Como editar o projeto
 - Edite o arquivo `index.html` para alterar o texto e marcações da página
 - Edite o arquivo `js/main.js` para alterar as funcionalidades do JavaScript.
 - Edite os arquivos `scss/*.scss` para alterar os estilo da página.
